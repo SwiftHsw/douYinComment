@@ -41,6 +41,10 @@
  */
 @property(nonatomic,strong)NSArray * dataArray;
 
+/*
+ 标题数量
+ */
+@property(nonatomic,strong)NSString *titleString;
 
 @end
 
@@ -71,4 +75,6 @@
 @interface ListTableView : UITableView
 
 @end
+
+ 
 
